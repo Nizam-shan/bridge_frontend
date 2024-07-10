@@ -2,8 +2,8 @@ import Head from "next/head";
 
 import { Inter } from "next/font/google";
 
-import { Main } from "./main";
 import ResponsiveAppBar from "./navbar";
+import Main from "./main";
 
 const inter = Inter({ subsets: ["latin"] });
 

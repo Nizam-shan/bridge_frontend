@@ -4,7 +4,7 @@ import { StateContext } from "@/context/state";
 import { Box, Grid, Paper, Typography } from "@mui/material";
 import { useContext } from "react";
 
-export const Main = () => {
+const Main = () => {
   const { params, setParams } = useContext(StateContext);
   return (
     <>
@@ -51,3 +51,4 @@ export const Main = () => {
     </>
   );
 };
+export default Main;
